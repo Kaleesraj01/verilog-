@@ -1,0 +1,24 @@
+$date
+	Fri Sep 12 04:42:03 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module ones_counter_for $end
+$var reg 4 ! data [3:0] $end
+$var integer 32 " count [31:0] $end
+$var integer 32 # i [31:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 #
+b11 "
+b1011 !
+$end
