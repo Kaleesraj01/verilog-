@@ -1,0 +1,20 @@
+$date
+	Fri Sep 12 09:46:03 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module countdown_while $end
+$var integer 32 ! i [31:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11111111111111111111111111111111 !
+$end
