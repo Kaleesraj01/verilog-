@@ -33,5 +33,4 @@ dout=0;
 case(current_state)
 s4: dout= din? 1 :0;
 endcase
-end
 endmodule
