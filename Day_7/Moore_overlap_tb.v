@@ -24,7 +24,8 @@ din=0; #10;
 $finish;
 
 
-initial begin
+initial
+  begin,
 $monitor("Time=%0t din=%b dout=%b",$time,din,dout);
 $dumpfile("raj.vcd");
 $dumpvars();
