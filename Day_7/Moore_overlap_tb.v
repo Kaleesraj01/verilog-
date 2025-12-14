@@ -22,7 +22,7 @@ din=1; #10;
 din=0; #10; 
 din=0; #10;
 $finish;
-end
+
 
 initial begin
 $monitor("Time=%0t din=%b dout=%b",$time,din,dout);
