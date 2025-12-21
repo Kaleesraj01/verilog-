@@ -1,4 +1,6 @@
-module d_latch(input d ,en, output reg q , output qbar);
+module d_latch(input d ,en, 
+               output reg q , 
+               output qbar);
 always @(*)
 begin
 if (en)
