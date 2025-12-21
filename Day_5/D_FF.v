@@ -1,4 +1,6 @@
-module d_ff(input d, clk,rst, output reg q , output wire qb
+module d_ff(input d, clk,rst,
+            output reg q , 
+            output wire qb
 );
 always @(posedge clk )
 begin if(rst)
