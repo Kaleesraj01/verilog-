@@ -5,7 +5,7 @@ module custom_counter (
 );
 
 always @(posedge clk) begin
-    if (rst)
+    if (rst) 
         state <= 3'b000;
     else begin
         case (state)
